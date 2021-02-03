@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: pack1.LoginandHomePageTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.675 sec <<< FAILURE!
+dsampleTest(pack1.LoginandHomePageTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at pack1.LoginandHomePageTest.dsampleTest(LoginandHomePageTest.java:61)
+
+csubjectPageTest(pack1.LoginandHomePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<st> but was:<st1>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at pack1.LoginandHomePageTest.csubjectPageTest(LoginandHomePageTest.java:56)
+

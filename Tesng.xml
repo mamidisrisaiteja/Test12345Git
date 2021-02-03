@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+	
+		<groups>
+              
+        	<run>
+				<exclude name="smokeTest"/>
+	            <include name="functionalTest"/>
+			</run>      
+			  
+		</groups>
+	
+		<classes>
+			
+			<class name="pack1.LoginandHomePageTest" />
+		</classes>
+	</test>
+</suite>
